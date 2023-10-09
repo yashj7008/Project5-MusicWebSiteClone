@@ -1,0 +1,271 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.firstBack{
+   
+    background-image: url(images/hero_image.png);
+    width: 100%;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    background-color: #270082;
+    color: #FFF;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.mytuneHead{
+    margin-left: 120px;
+   
+}
+.navTools{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 115px;
+}
+
+.mainPageContent{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+
+}
+
+.secondBack{
+    width: 100%;
+    height: 806px;
+    background-color: #281154;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+
+#info{
+    width: 970px;
+    text-align: center;
+}
+
+#buttonTrial button {
+   padding: 10px;
+   background-color: #DC0000;
+   outline: none;
+   cursor: pointer;
+   border: none;
+}
+
+.secondPageContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.secondBack .secondPageContent h2{
+    margin-top: 2rem;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 1rem;
+}
+.secondBack .secondPageContent h3{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px; 
+
+}
+#info{
+    font-family: Roboto;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 29px;
+}
+#lastPara {
+    margin-top: 2rem;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+
+}
+
+.tabletAndPhone img{
+    margin-top: 100px;
+}
+
+.whiteBack{
+    width: 100%;
+    height: 1400px;
+    
+}
+
+.mainContent {
+    margin-top: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
+}
+
+.whiteBack .mainContent p{
+    color: #000;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 32px;
+   width: 1045px;
+   height: 124px;
+}
+
+.whiteBack .mainContent button{
+    background-color: #37008E;
+    padding: 12px 24px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+     font-weight: 300;
+    line-height: 29px;
+     margin: 4rem 4rem;
+}
+
+.blueBack{
+    background-image: url(images/video.png);
+    width: 100%;
+    height: 701px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.blueBack h2{
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px
+    
+}
+
+.blueBack p{
+    color: white;
+    width: 937px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; 
+    text-align: center;
+
+}
+
+.giftCard{
+    margin-top: 70px ;
+    margin-bottom: 70px ;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.giftContent{
+    width: 576px;
+
+}
+
+.giftCard p{
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 29px; /* 207.143% */
+}
+
+.giftCard button{
+color: white;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 29px;
+padding: 6px 12px;
+background-color:  #37008E;
+}
+
+footer{
+    padding-block: 50px;
+    background-color: #1B0058;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+
+}
+
+.link-column{
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    
+}
+a {
+    color: white;
+   
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+.sub-footer{
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 10px;
+   width: 100%;
+   height: 30px;
+   padding:20px;
+   color: white;
+   background-color: #270082;
+   text-align: center;
+}
